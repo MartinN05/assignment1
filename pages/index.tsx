@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <div>
-      <Header title="Student Dashboard" />
+      <Header title="Assignment 1" />
 
       <nav>
         <button onClick={() => setPage("home")}>
