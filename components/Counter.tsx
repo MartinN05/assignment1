@@ -23,8 +23,6 @@ export default function Counter({ title }: CounterProps) {
 
       <button onClick={increaseCount}>Increase</button>
       <button onClick={decreaseCount}>Decrease</button>
-
-      {count >= 5 && <p>You reached 5!</p>}
     </div>
   );
 }
